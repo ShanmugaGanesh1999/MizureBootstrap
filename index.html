@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+    integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Mizure</title>
+</head>
+
+<body id="home" data-spy="scroll" data-target="#main-nav">
+  <!-- NAV SeCTION -->
+  <div class="navbar navbar-expand-md fixed-top py-3 navbar-light" id="main-nav">
+    <div class="container">
+      <a href="#home" class="navbar-brand">
+        <img src="mlogo.png" alt="" width="50" height="50">
+        <h3 class="d-inline align-middle">Mizure</h3>
+      </a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#collapseNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapseNavbar">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="#home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#authors" class="nav-link">Meet the Authors</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- SHOW CASE -->
+  <section id="showcase" class="py-3">
+    <div class="primary-overlay text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 text-center">
+            <h1 class="display-3 mt-3 pt-3">Do What You Dream Of...!</h1>
+            <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, expedita.</p>
+            <a href="#" class="btn btn-outline-secondary btn-lg text-white">
+              <i class="fas fa-arrow-right"></i>Read More...
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <img src="book.png" alt="" class="img-fluid md-2 d-none d-lg-block">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWSLETTER -->
+  <section id="newsletter" class="bg-dark py-3 text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <input type="text" class="form-control form-control-lg mb-resp" placeholder="Enter Name">
+        </div>
+        <div class="col-md-4">
+          <input type="email" class="form-control form-control-lg mb-resp" placeholder="Enter Email">
+        </div>
+        <div class="col-md-4">
+          <button class="btn btn-lg btn-block text-light">
+            <i class="fas fa-envelope"> Subscribe</i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BOXES -->
+  <section id="boxes" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card text-center mb-resp">
+            <div class="card-body">
+              <div class="txt-clr tt-lg"><strong>Be Better</strong></div>
+              <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, nostrum.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card text-center mb-resp">
+            <div class="card-body text-light b-alt">
+              <div class="text-light tt-lg"><strong>Be Stronger</strong></div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, nostrum.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card text-center mb-resp">
+            <div class="card-body">
+              <div class="txt-clr tt-lg"><strong>Be Faster</strong></div>
+              <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, nostrum.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card text-center mb-resp">
+            <div class="card-body text-light b-alt">
+              <div class="text-light tt-lg"><strong>Be Smarter</strong></div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, nostrum.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ABOUT -->
+  <section id="about" class="text-center bg-light py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="info-header mb-5">
+            <h1 class="txt-clr pt-5">WHY This Book?</h1>
+            <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse illum aperiam, asperiores ab
+              vel tempore?</p>
+          </div>
+          <!-- ACCORDION -->
+          <div class="accordion" id="accordionExample">
+            <div class="card">
+              <div class="card-header" id="heading1">
+                <h5 class="mb-0">
+                  <a data-toggle="collapse" data-target="#collapse1">
+                    <i class="fas fa-arrow-circle-down"></i> Get Inspired
+                  </a>
+                </h5>
+              </div>
+              <div id="collapse1" class="collapse show" aria-labelledby="heading1" data-parent="#accordionExample">
+                <div class="card-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. In reprehenderit incidunt quis magnam ipsam
+                  voluptas. Voluptas placeat animi nostrum? Mollitia asperiores odit deleniti officiis doloribus! Beatae
+                  hic ad impedit nulla aperiam enim odio vel mollitia maiores harum eum, esse totam dolore in incidunt
+                  laborum numquam nobis, reiciendis atque aspernatur rem.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="heading2">
+                <h5 class="mb-0">
+                  <a data-toggle="collapse" data-target="#collapse2">
+                    <i class="fas fa-arrow-circle-down"></i> Gain The Knowledge
+                  </a>
+                </h5>
+              </div>
+              <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#accordionExample">
+                <div class="card-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. In reprehenderit incidunt quis magnam ipsam
+                  voluptas. Voluptas placeat animi nostrum? Mollitia asperiores odit deleniti officiis doloribus! Beatae
+                  hic ad impedit nulla aperiam enim odio vel mollitia maiores harum eum, esse totam dolore in incidunt
+                  laborum numquam nobis, reiciendis atque aspernatur rem.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="heading3">
+                <h5 class="mb-0">
+                  <a data-toggle="collapse" data-target="#collapse3">
+                    <i class="fas fa-arrow-circle-down"></i> Open Your Mind
+                  </a>
+                </h5>
+              </div>
+              <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordionExample">
+                <div class="card-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. In reprehenderit incidunt quis magnam ipsam
+                  voluptas. Voluptas placeat animi nostrum? Mollitia asperiores odit deleniti officiis doloribus! Beatae
+                  hic ad impedit nulla aperiam enim odio vel mollitia maiores harum eum, esse totam dolore in incidunt
+                  laborum numquam nobis, reiciendis atque aspernatur rem.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AUTHORS -->
+  <section id="authors" class="my-3 text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="info-header mb-5">
+            <h1 class="txt-clr pb-2">Meet The Author</h1>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae dolore, tempora iure
+              recusandae pariatur numquam.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <div class="card bord">
+            <div class="card-body">
+              <img src="person1.jpg" alt="" class="img-fluid mb-2 w-50 rounded-circle">
+              <h4>Susan Williams</h4>
+              <h5 class="text-muted">Lead Writer</h5>
+              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, ab.</p>
+              <div class="d-flex justify-content-center">
+                <a href="www.facebook.com"><i class="fab fa-facebook fa-2x mx-3"></i></a>
+                <a href="www.instagram.com"><i class="fab fa-instagram fa-2x mx-3"></i></a>
+                <a href="www.twitter.com"><i class="fab fa-twitter fa-2x mx-3"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="card bord">
+            <div class="card-body">
+              <img src="person2.jpg" alt="" class="img-fluid mb-2 w-50 rounded-circle">
+              <h4>Grace Smith</h4>
+              <h5 class="text-muted">Co-Writer</h5>
+              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, ab.</p>
+              <div class="d-flex justify-content-center">
+                <a href="www.facebook.com"><i class="fab fa-facebook fa-2x mx-3"></i></a>
+                <a href="www.instagram.com"><i class="fab fa-instagram fa-2x mx-3"></i></a>
+                <a href="www.twitter.com"><i class="fab fa-twitter fa-2x mx-3"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="card bord">
+            <div class="card-body">
+              <img src="person3.jpg" alt="" class="img-fluid mb-2 w-50 rounded-circle">
+              <h4>John Doe</h4>
+              <h5 class="text-muted">Editor</h5>
+              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, ab.</p>
+              <div class="d-flex justify-content-center">
+                <a href="www.facebook.com"><i class="fab fa-facebook fa-2x mx-3"></i></a>
+                <a href="www.instagram.com"><i class="fab fa-instagram fa-2x mx-3"></i></a>
+                <a href="www.twitter.com"><i class="fab fa-twitter fa-2x mx-3"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="card bord">
+            <div class="card-body">
+              <img src="person4.jpg" alt="" class="img-fluid mb-2 w-50 rounded-circle">
+              <h4>Kevin Swanson</h4>
+              <h5 class="text-muted">Designer</h5>
+              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, ab.</p>
+              <div class="d-flex justify-content-center">
+                <a href="www.facebook.com"><i class="fab fa-facebook fa-2x mx-3"></i></a>
+                <a href="www.instagram.com"><i class="fab fa-instagram fa-2x mx-3"></i></a>
+                <a href="www.twitter.com"><i class="fab fa-twitter fa-2x mx-3"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="bg-light py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-9">
+          <h4>Get In Touch</h4>
+          <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, animi.</p>
+          <form>
+            <div class="input-group input-group-lg mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text">
+                  <i class="fas fa-user txt-clr"></i>
+                </span>
+              </div>
+              <input type="text" class="form-control" placeholder="Name">
+            </div>
+            <div class="input-group input-group-lg mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text">
+                  <i class="fas fa-at txt-clr"></i>
+                </span>
+              </div>
+              <input type="email" class="form-control" placeholder="Email">
+            </div>
+            <div class="input-group input-group-lg mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text">
+                  <i class="fas fa-pencil-alt txt-clr"></i>
+                </span>
+              </div>
+              <input type="text" class="form-control" placeholder="Message">
+            </div>
+            <button type="submit" class="btn btn-block btn-lg b-alt text-light">Submit</button>
+          </form>
+        </div>
+        <div class="col-lg-3 self-algin-center">
+          <img src="mlogo.png" alt="" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="main-footer" class="text-white b-alt py-5">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-6 ml-auto">
+          <p class="lead">Copyright &copy; <span id="year"></span></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+    integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+
+  <script>
+    // Get the current year for the copyright
+    $('#year').text(new Date().getFullYear());
+    //init scrollspy
+    $('body').scrollspy({ target: '#main-nav' });
+    //smooth scrolling
+    $('#main-nav a').on('click', function (e) {
+      if (this.hash !== "") {
+        e.preventDefault();
+        const hash = this.hash;
+        $('html,body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function () {
+          window.location.hash = hash;
+        });
+      }
+    });
+  </script>
+</body>
+
+</html>
